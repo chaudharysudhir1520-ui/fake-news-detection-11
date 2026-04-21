@@ -1,0 +1,27 @@
+{
+  "name": "fake-news-detector",
+  "version": "1.0.0",
+  "description": "Full stack fake news detection web application using Node.js, Express, and Python ML.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "train-model": "python ml-model/train_model.py"
+  },
+  "keywords": [
+    "fake-news",
+    "machine-learning",
+    "express",
+    "python",
+    "tfidf"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
